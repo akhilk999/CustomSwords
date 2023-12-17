@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"mesh_palette": "ElucidatorVer2"
+		"mesh_palette": "customswords:item/elucidator"
 	},
 	"elements": [
 		{

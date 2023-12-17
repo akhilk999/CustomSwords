@@ -2,22 +2,26 @@
   "schemaVersion": 1,
   "id": "customswords",
   "version": "${version}",
-
   "name": "CustomSwords",
   "description": "",
   "authors": [],
-  "contact": {},
-
+  "contact": {
+    "repo": "https://github.com/akhilk999/CustomSwords"
+  },
   "license": "All-Rights-Reserved",
   "icon": "assets/customswords/icon.png",
-
   "environment": "*",
-  "entrypoints": {},
-
-    
+  "entrypoints": {
+    "client": [
+      "org.akhilk999.customswords.client.CustomSwordsClient"
+    ],
+    "main": [
+      "org.akhilk999.customswords.CustomSwords"
+    ]
+  },
   "depends": {
     "fabricloader": ">=${loader_version}",
-              "fabric": "*",
-          "minecraft": "${minecraft_version}"
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
   }
 }

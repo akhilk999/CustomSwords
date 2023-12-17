@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"DarkRepulser": "DarkRepulserVer2"
+		"DarkRepulser": "customswords:item/dark-repulser"
 	},
 	"elements": [
 		{
