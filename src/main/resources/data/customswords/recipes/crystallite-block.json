@@ -1,0 +1,18 @@
+{
+  "type":"minecraft:block",
+  "category": "building",
+  "key": {
+    "#": {
+      "item": "customswords:crystallite-ingot"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "customswords:crystallite-block"
+  },
+  "show_notification": true
+}
