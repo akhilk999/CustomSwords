@@ -16,6 +16,7 @@ public class ModBlocks {
 
     //public static final Block CRYSTALLITE_ORE = register("diamond_ore", new ExperienceDroppingBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F), UniformIntProvider.create(3, 7));
     public static final Block CRYSTALLITE_ORE = registerBlock("crystallite-ore", new Block(AbstractBlock.Settings.create()), Items.ANCIENT_DEBRIS,ItemGroups.NATURAL);
+    public static final Block CRYSTALLITE_BLOCK = registerBlock("crystallite-block", new Block(AbstractBlock.Settings.create()), Items.NETHERITE_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, Item prev, RegistryKey<ItemGroup> group){
         registerBlockItem(name, block, prev, group);
