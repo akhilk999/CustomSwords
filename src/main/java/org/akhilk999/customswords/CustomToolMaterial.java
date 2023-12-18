@@ -1,16 +1,11 @@
 package org.akhilk999.customswords;
 
 import net.fabricmc.yarn.constants.MiningLevels;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.util.Lazy;
-import org.akhilk999.customswords.CustomSwords;
 import org.akhilk999.customswords.items.ModItems;
 
-import java.util.function.Supplier;
-
-public enum CrystalliteToolMaterial implements ToolMaterial {
+public enum CustomToolMaterial implements ToolMaterial {
     CRYSTALLITE(MiningLevels.DIAMOND, 2031, 8.0F, 4.0F, 10);
 
     private final int miningLevel;
@@ -19,7 +14,7 @@ public enum CrystalliteToolMaterial implements ToolMaterial {
     private final float attackDamage;
     private final int enchantability;
 
-    private CrystalliteToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability) {
+    private CustomToolMaterial(int miningLevel, int itemDurability, float miningSpeed, float attackDamage, int enchantability) {
         this.miningLevel = miningLevel;
         this.itemDurability = itemDurability;
         this.miningSpeed = miningSpeed;

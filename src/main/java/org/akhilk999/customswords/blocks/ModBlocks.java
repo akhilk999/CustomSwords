@@ -4,19 +4,21 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.enums.Instrument;
 import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import org.akhilk999.customswords.CrystalliteToolMaterial;
 import org.akhilk999.customswords.CustomSwords;
 
 public class ModBlocks {
 
     //public static final Block CRYSTALLITE_ORE = register("diamond_ore", new ExperienceDroppingBlock(AbstractBlock.Settings.create().mapColor(MapColor.STONE_GRAY).instrument(Instrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F), UniformIntProvider.create(3, 7));
-    public static final Block CRYSTALLITE_ORE = registerBlock("crystallite-ore", new Block(AbstractBlock.Settings.create()), Items.ANCIENT_DEBRIS,ItemGroups.NATURAL);
-    public static final Block CRYSTALLITE_BLOCK = registerBlock("crystallite-block", new Block(AbstractBlock.Settings.create()), Items.NETHERITE_BLOCK, ItemGroups.BUILDING_BLOCKS);
+    //public static final Block CRYSTALLITE_ORE = registerBlock("crystallite-ore", new Block(AbstractBlock.Settings.create()), Items.ANCIENT_DEBRIS,ItemGroups.NATURAL);
+    public static final Block CRYSTALLITE_ORE = registerBlock("crystallite-ore", new ExperienceDroppingBlock(AbstractBlock.Settings.create().instrument(Instrument.BASEDRUM).requiresTool().strength(3.0F, 3.0F)), Items.ANCIENT_DEBRIS,ItemGroups.NATURAL);
+    public static final Block CRYSTALLITE_BLOCK = registerBlock("crystallite-block", new Block(AbstractBlock.Settings.create().requiresTool().strength(5.0F, 6.0F).sounds(BlockSoundGroup.METAL)), Items.NETHERITE_BLOCK, ItemGroups.BUILDING_BLOCKS);
 
     private static Block registerBlock(String name, Block block, Item prev, RegistryKey<ItemGroup> group){
         registerBlockItem(name, block, prev, group);
