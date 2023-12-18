@@ -1,23 +1,31 @@
 package org.akhilk999.customswords;
 
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.item.Item;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.ExperienceDroppingBlock;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.enums.Instrument;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
+import org.akhilk999.customswords.blocks.ModBlocks;
+import org.akhilk999.customswords.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import static net.minecraft.item.Items.register;
+import static org.akhilk999.customswords.CrystalliteToolMaterial.CRYSTALLITE;
+
 public class CustomSwords implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("customswords");
-    public static final Item DARK_REPULSER = new Item(new Item.Settings().maxCount(1));
-    public static final Item ELUCIDATOR = new Item(new Item.Settings().maxCount(1));
-    public static final Item LAMBENT_LIGHT = new Item(new Item.Settings().maxCount(1));
+
     @Override
     public void onInitialize() {
         LOGGER.info("CustomSwords has started up.");
-        Registry.register(Registries.ITEM, new Identifier("customswords", "dark-repulser"), DARK_REPULSER);
-        Registry.register(Registries.ITEM, new Identifier("customswords", "elucidator"), ELUCIDATOR);
-        Registry.register(Registries.ITEM, new Identifier("customswords", "lambent-light"), LAMBENT_LIGHT);
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
     }
 }
