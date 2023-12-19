@@ -20,6 +20,7 @@ public class ModItems {
     public static final Item DARK_REPULSER = registerItem("dark-repulser", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
     public static final Item ELUCIDATOR = registerItem("elucidator", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
     public static final Item LAMBENT_LIGHT = registerItem("lambent-light", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
+    public static final Item DIVINE_RADIANCE = registerItem("divine-radiance", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
 
     /* Registers given item with name
        @param name the name of the item
@@ -37,6 +38,7 @@ public class ModItems {
             entries.addAfter(Items.NETHERITE_SWORD,DARK_REPULSER);
             entries.addAfter(DARK_REPULSER,ELUCIDATOR);
             entries.addAfter(ELUCIDATOR,LAMBENT_LIGHT);
+            entries.addAfter(LAMBENT_LIGHT,DIVINE_RADIANCE);
         });
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
             entries.addAfter(Items.DIAMOND,CRYSTALLITE_INGOT);

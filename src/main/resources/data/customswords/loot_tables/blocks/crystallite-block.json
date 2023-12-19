@@ -3,19 +3,18 @@
   "pools": [
     {
       "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "customswords:crystallite-block"
+        }
+      ],
       "conditions": [
         {
           "condition": "minecraft:survives_explosion"
         }
       ],
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "customswords:crystallite_block"
-        }
-      ],
       "rolls": 1
     }
-  ],
-  "random_sequence": "minecraft:blocks/crystallite_block"
+  ]
 }

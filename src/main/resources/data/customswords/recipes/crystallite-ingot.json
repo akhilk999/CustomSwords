@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "crystallite-ingot",
+  "ingredients": [
+    {
+      "item": "customswords:crystallite-block"
+    }
+  ],
+  "result": {
+    "item": "customswords:crystallite-ingot",
+    "count": 9
+  }
+}

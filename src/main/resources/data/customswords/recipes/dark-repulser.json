@@ -1,18 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "building",
+  "category": "equipment",
   "key": {
     "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
       "item": "customswords:crystallite-ingot"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "X",
+    "X",
+    "#"
   ],
   "result": {
-    "item": "customswords:crystallite-block"
+    "item": "customswords:dark-repulser"
   },
   "show_notification": true
 }
