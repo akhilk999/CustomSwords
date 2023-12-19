@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "customswords:item/divine-radiance/handle_base",
-		"2": "customswords:item/divine-radiance/feather_gradient",
-		"3": "customswords:item/divine-radiance/handle",
-		"4": "customswords:item/divine-radiance/gold_handguard",
-		"5": "customswords:item/divine-radiance/gold_pedestal",
-		"6": "customswords:item/divine-radiance/light_cube",
-		"7": "customswords:item/divine-radiance/metal_blade",
-		"8": "customswords:item/divine-radiance/blade",
-		"particle": "customswords:item/divine-radiance/handle_base"
+		"0": "handle_base",
+		"2": "feather_gradient",
+		"3": "handle",
+		"4": "gold_handguard",
+		"5": "gold_pedestal",
+		"6": "light_cube",
+		"7": "metal_blade",
+		"8": "blade",
+		"particle": "handle_base"
 	},
 	"elements": [
 		{
@@ -205,8 +205,8 @@
 			}
 		},
 		{
-			"from": [8.925, 11.85, 10.45],
-			"to": [9.05, 12.1, 11.2],
+			"from": [8.9, 11.85, 10.45],
+			"to": [9.1, 12.1, 11.2],
 			"rotation": {"angle": -45, "axis": "x", "origin": [9, 11.625, 10]},
 			"faces": {
 				"north": {"uv": [8, 0, 9, 10.4], "rotation": 180, "texture": "#4"},
@@ -218,8 +218,8 @@
 			}
 		},
 		{
-			"from": [8.925, 12.14289, 10.80355],
-			"to": [9.05, 12.89289, 11.05355],
+			"from": [8.9, 12.14289, 10.80355],
+			"to": [9.1, 12.89289, 11.05355],
 			"rotation": {"angle": -45, "axis": "x", "origin": [9, 10.91789, 10.35355]},
 			"faces": {
 				"north": {"uv": [0, 8, 1, 16], "texture": "#4"},
@@ -231,8 +231,8 @@
 			}
 		},
 		{
-			"from": [8.925, 12.35, 8.9],
-			"to": [9.05, 13.85, 9.1],
+			"from": [8.9, 12.35, 8.9],
+			"to": [9.1, 13.85, 9.1],
 			"rotation": {"angle": 22.5, "axis": "x", "origin": [9, 11.57069, 9.80543]},
 			"faces": {
 				"north": {"uv": [8, 0, 9, 10], "texture": "#4"},
@@ -244,8 +244,8 @@
 			}
 		},
 		{
-			"from": [8.925, 12.55, 10.9],
-			"to": [9.05, 14.05, 11.1],
+			"from": [8.9, 12.55, 10.9],
+			"to": [9.1, 14.05, 11.1],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [9, 11.54084, 10.70057]},
 			"faces": {
 				"north": {"uv": [8, 0, 9, 10], "texture": "#4"},
