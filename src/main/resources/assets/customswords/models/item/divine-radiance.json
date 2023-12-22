@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "handle_base",
-		"2": "feather_gradient",
-		"3": "handle",
-		"4": "gold_handguard",
-		"5": "gold_pedestal",
-		"6": "light_cube",
-		"7": "metal_blade",
-		"8": "blade",
-		"particle": "handle_base"
+		"0": "customswords:item/divine-radiance/handle_base",
+		"2": "customswords:item/divine-radiance/feather_gradient",
+		"3": "customswords:item/divine-radiance/handle",
+		"4": "customswords:item/divine-radiance/gold_handguard",
+		"5": "customswords:item/divine-radiance/gold_pedestal",
+		"6": "customswords:item/divine-radiance/light_cube",
+		"7": "customswords:item/divine-radiance/metal_blade",
+		"8": "customswords:item/divine-radiance/blade",
+		"particle": "customswords:item/divine-radiance/handle_base"
 	},
 	"elements": [
 		{
