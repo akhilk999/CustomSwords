@@ -17,9 +17,9 @@ public class ModItems {
     //////////
     //SWORDS//
     /////////
-    public static final Item DARK_REPULSER = registerItem("dark-repulser", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
-    public static final Item ELUCIDATOR = registerItem("elucidator", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
-    public static final Item LAMBENT_LIGHT = registerItem("lambent-light", new SwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
+    public static final Item DARK_REPULSER = registerItem("dark-repulser", new DarkRepulserSwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
+    public static final Item ELUCIDATOR = registerItem("elucidator", new ElucidatorSwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
+    public static final Item LAMBENT_LIGHT = registerItem("lambent-light", new LambentLightSwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
     public static final Item DIVINE_RADIANCE = registerItem("divine-radiance", new DivineRadianceSwordItem(CRYSTALLITE,4, -2.4f, new Item.Settings()));
 
     /* Registers given item with name
