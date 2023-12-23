@@ -3,7 +3,13 @@
   "item.customswords.dark-repulser": "Dark Repulser",
   "item.customswords.lambent-light": "Lambent Light",
   "item.customswords.divine-radiance": "Divine Radiance",
+
   "item.customswords.crystallite-ingot": "Crystallite Ingot",
   "block.customswords.crystallite-ore": "Crystallite Ore",
-  "block.customswords.crystallite-block": "Crystallite Block"
+  "block.customswords.crystallite-block": "Crystallite Block",
+
+  "tooltip.customswords.divine-radiance.tooltip": "Sets things on fire!!",
+  "tooltip.customswords.dark-repulser.tooltip": "Kirito's sword from SAO",
+  "tooltip.customswords.elucidator.tooltip": "Kirito's sword from SAO",
+  "tooltip.customswords.lambent-light.tooltip": "Asuna's sword from SAO"
 }
